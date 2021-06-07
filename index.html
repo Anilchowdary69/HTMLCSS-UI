@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USERINTERFACE</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="block1">
+        <div class="block2">
+            <a class="edit" href="#">Remember<span>That</span></a>
+            <img id="menu-enter" class="mobile-menu-enter" src="images/menu.svg" alt="mobile-menu">
+            <nav>
+                <img id="menu-exit" class="mobile-menu-exit" src="images/exit.svg" alt="mobile-exit">
+                <ul class="primary-nav">
+                    <li><a class="home" href="#">Home</a></li>
+                    <li><a class="feature" href="#">Features</a></li>
+                    <li><a class="price" href="#">Pricing</a></li>
+                </ul>
+                <ul class="secondary-nav">
+                    <li><a href="#">Contact</a></li>
+                    <li><a class="go-premium" href="#">GoPremium</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+
+    </div>
+    <section class="block3">
+        <div class="block4">
+            <div class="block5">
+                <p class="edit-name">It's nitty &amp; anil</p>
+
+                <h1>A Task App That <br>Doesn't Stink</h1>
+
+
+                <div class="block6">
+                    <a href="#" class="block7">Try For Free</a>
+                    <img class="video-img" src="images/watch.svg " alt="watching-video">
+                    <a class="edit-watch" href="#">Watch A Video</a>
+                </div>
+            </div>
+            <div class="block8">
+                <img class="box-img" src="images/illustration.svg" alt="illustration-img">
+            </div>
+
+        </div>
+    </section>
+    <section class="block9">
+        <div class="block10">
+            <ul class="block11">
+                <li>Unlimited Tasks</li>
+                <li>SMS Task Reminders</li>
+                <li>Confletti Explosions Upon task competion</li>
+                <li>Social Media Announcement</li>
+                <li>Real Time Collobaraton</li>
+                <li>Other Awesome Features</li>
+            </ul>
+            <div class="block12">
+                <img src="images/holding-phone.jpg" alt="phone-holding">
+            </div>
+        </div>
+    </section>
+    <section class="block13">
+        <div class="block14">
+            <ul>
+                <li>
+                    <img src="images/person.jpg" alt="person">
+                    <blockquote>
+                        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+                    </blockquote>
+                    <cite>-Anil</cite>
+                </li>
+                <li>
+                    <img src="images/person.jpg" alt="person">
+                    <blockquote>
+                        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+                    </blockquote>
+                    <cite>-venkat</cite>
+                </li>
+                <li>
+                    <img src="images/person.jpg" alt="person">
+                    <blockquote>
+                        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+                    </blockquote>
+                    <cite>-Chowdary</cite>
+                </li>
+            </ul>
+
+        </div>
+
+    </section>
+    <section class="block15">
+        <div class="block16">
+
+            <div class="block17">
+
+                <h1>contact</h1>
+                <form action="">
+                    <label for="name">Name</label><br>
+                    <input type="name" name="name" id="name" placeholder="enter a name"><br>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" cols="30" rows="10">write something</textarea><br>
+                    <input type="submit" class="block18" value="Send Message">
+
+            </div>
+            <div class="block19">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122410.10175904927!2d80.57484302353787!3d16.510153135358067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35eff9482d944b%3A0x939b7e84ab4a0265!2sVijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1622623332477!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        const mobileMenu = document.getElementById('menu-enter')
+        mobileExit = document.getElementById('menu-exit')
+        nav1 = document.querySelector('nav');
+        mobileMenu.addEventListener('click', () => {
+            nav1.classList.add('menu-button');
+
+        })
+        mobileExit.addEventListener('click', () => {
+            nav1.classList.remove('menu-button');
+
+        })
+    </script>
+</body>
+/
+
+</html>
